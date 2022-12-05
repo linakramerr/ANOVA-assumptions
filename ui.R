@@ -34,7 +34,7 @@ ui <- dashboardPage(
             target="_blank","GitHub"),align="left", style = "font-size: 10pt"),
       
       HTML("<br><br><br>"),
-      img(src = 'UU_logo.png', align = "left", style="width: 300px")
+      img(src = 'logo.png', align = "bottom")
       ### you can easily add extra tabs by including an extra "menuItem("...", tabName = "")," before the disclaimer ###
       ### you can remove or add <br> statements in the HTML function (menuItem("Disclaimer")) to adjust the position of the UU logo (make sure it is approximately at the bottom of the screen when opened)
     )
